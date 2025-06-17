@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 xyd-us-trojan, server: us01.x.top, port: 25516, type: trojan, password: 1d9ebea0-51a5-4a1d-8d00-63c6a34a24ee, sni: us01.cmtk3.top, skip-cert-verify: true}
+  - {name: 🇺🇸 xyd-us-trojan, server: us01.x.top, port: 25516, type: trojan, password: 1d9ebea0-51a5-4a1d-8d00-63c6a34a24ee, sni: us01.x.top, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
